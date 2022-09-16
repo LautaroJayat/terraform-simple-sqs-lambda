@@ -46,8 +46,6 @@ resource "aws_iam_policy" "lambda_policy" {
         "logs:CreateLogStream",
         "logs:PutLogEvents"
       ],
-      "Effect": "Allow",
-      "Resource": "*"
     }
   ]
 }
